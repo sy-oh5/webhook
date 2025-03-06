@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메일 알림</title>
+</head>
+<body>
+<div style="text-align: center; padding: 20px;">
+    <h1>📩 메일 알림</h1>
+    <p>안녕하세요,</p>
+    <p><strong>메일 ID:</strong> <span th:text="${id}"></span>번 메일 입니다.</p>
+    <p>이메일을 열면 자동으로 읽음 처리됩니다.</p>
+
+    <!-- ✅ 투명한 이미지로 GET 요청 전송 (자동 메일 읽음 처리) -->
+    <img th:src="@{${webhookUrl}}" width="1" height="1" alt="메일 읽음 처리">
+</div>
+</body>
+</html>
