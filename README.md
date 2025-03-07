@@ -12,7 +12,8 @@
 
 ---
 
-![image](https://github.com/user-attachments/assets/0df998c4-2e5b-425e-9d2a-f7f018466369)
+![image](https://github.com/user-attachments/assets/eaecb895-2cb6-4b95-b1dc-f04d2ed05812)
+
 
 - 시퀀스 다이어그램
   
