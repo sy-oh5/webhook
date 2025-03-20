@@ -1,22 +1,10 @@
 # 📩 Webhook 
 
 ## 📌 프로젝트 개요
-해당 프로젝트는 메일이 수신되었을 때 **자동으로 읽음 처리**하는 기능을 제공하는 프로젝트입니다.  
-이 프로젝트는 **H2 데이터베이스**를 사용하며, 외부에서 접근할 수 있도록 **ngrok을 활용하여 SSL URL로 포워딩**합니다.
----
-
-## 🔥 기능 설명
-- **메일 발송 및 저장**: 사용자가 특정 이메일로 메일을 전송하면, 해당 정보가 DB에 저장됩니다.
-- **메일 읽음 처리**: 이메일을 열었을 때, 자동으로 서버에 요청이 보내져 **읽음 처리**됩니다.
-- **ngrok을 통한 SSL URL 제공**: localhost에서 실행되는 서버를 외부에서 접근할 수 있도록 HTTPS 포워딩합니다.
-
----
-
-![image](https://github.com/user-attachments/assets/eaecb895-2cb6-4b95-b1dc-f04d2ed05812)
-
-
-- 시퀀스 다이어그램
-  
++ 메일이 수신시 **자동으로 읽음 처리**하는 기능을 제공
++ **H2 데이터베이스**를 사용
++ 외부에서 접근할 수 있도록 **ngrok을 활용하여 SSL URL로 포워딩** (https://ngrok.com/docs/getting-started/)
+---  
 <img width="1215" alt="image" src="https://github.com/user-attachments/assets/f9805992-c91f-4078-8b58-dd8754fab519" />
 
 - send api 호출하여 body에 발송할 이메일 주소 작성
