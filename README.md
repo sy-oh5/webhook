@@ -3,7 +3,7 @@
 ## 📌 프로젝트 개요
 + 메일이 수신시 **자동으로 읽음 처리**하는 기능을 제공
 + **H2 데이터베이스**를 사용
-+ 외부에서 접근할 수 있도록 **ngrok을 활용하여 SSL URL로 포워딩** (https://ngrok.com/docs/getting-started/)
++ 로컬 환경시, 외부에서 접근할 수 있도록 **SSL URL로 포워딩 필요** 본 프로젝트에선 ngrok을 활용하였음 (https://ngrok.com/docs/getting-started/)
 ---  
 <img width="1215" alt="image" src="https://github.com/user-attachments/assets/f9805992-c91f-4078-8b58-dd8754fab519" />
 
